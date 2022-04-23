@@ -1,0 +1,46 @@
+body {
+    background-color: hsl(217, 28%, 15%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+/*header*/
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 20px 45px;
+}
+
+
+/*Body*/
+
+div.section1 {
+    text-align: center;
+    background-image: url(/images/bg-curvy-desktop.svg);
+}
+
+button {
+    color: ;
+}
