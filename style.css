@@ -121,18 +121,24 @@ button {
 .column3 {
     float: left;
     width: 33.33%;
-    padding: 0 8px;
+    padding: 0 30px;
 }
 
 .row3 {
-    margin: 0 -5px;
+    margin: 0 -1px;
     background-color: hsl(218, 28%, 13%);
+    padding: 30px;
 }
 
 .row3::after {
     content: "";
     display: table;
     clear: both;
+}
+
+#quote {
+    position: absolute;
+    margin-left: 30px;
 }
 
 .card {
@@ -182,6 +188,7 @@ button {
     width: 70%;
     padding: 10px 80px;
     margin-left: 15%;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -199,11 +206,23 @@ button {
 input {
     border: none;
     border-radius: 25px;
-    padding: 10px;
-    margin-top: 20px;
-    margin-right: 15px;
+    padding: 15px;
+    margin: 35px 15px 35px 15px;
 }
 
 #email {
-    width: 50%;
+    width: 60%;
+}
+
+#button1 {
+    background-color: hsl(198, 60%, 50%);
+    color: hsl(0, 0%, 100%);
+    width: 20%;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: hsl(216, 53%, 9%);
 }
