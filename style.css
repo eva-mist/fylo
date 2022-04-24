@@ -121,10 +121,89 @@ button {
 .column3 {
     float: left;
     width: 33.33%;
+    padding: 0 8px;
 }
 
-.row:after {
+.row3 {
+    margin: 0 -5px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.row3::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.card {
+    /* this adds the "card" effect */
+    padding: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: hsl(217, 28%, 15%);
+}
+
+
+/*media query*/
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.column3 p {
+    text-align: center;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: hsl(217, 28%, 15%);
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.subaccess {
+    background-color: hsl(217, 28%, 15%);
+    float: left;
+    width: 70%;
+    padding: 10px 80px;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.access {
+    margin: 0 -5px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.access::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input {
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+#email {
+    width: 50%;
 }
