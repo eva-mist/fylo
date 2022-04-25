@@ -68,6 +68,10 @@ button {
     padding: 20px 55px 20px 55px;
 }
 
+button:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
 
 /* First Section*/
 
@@ -128,6 +132,9 @@ button {
     margin: 0 -1px;
     background-color: hsl(218, 28%, 13%);
     padding: 30px;
+    top: 0;
+    right: 0;
+    z-index: 20;
 }
 
 .row3::after {
@@ -220,9 +227,43 @@ input {
     width: 20%;
 }
 
+#button1:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
 
 /*footer*/
 
 footer {
     background-color: hsl(216, 53%, 9%);
+    padding-top: 80px;
+    padding-left: 30px;
+}
+
+#location {
+    margin-right: 10px;
+}
+
+.columnF {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+}
+
+.rowF {
+    margin: 0 -1px;
+    top: 0;
+    right: 0;
+    z-index: 20;
+}
+
+.rowF::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.link:hover {
+    font-weight: 700;
+    cursor: pointer;
 }
