@@ -24,7 +24,7 @@ nav a {
 
 ul {
     list-style-type: none;
-    margin: 20px;
+    margin: 30px;
     padding: 0;
     overflow: hidden;
 }
@@ -42,6 +42,15 @@ li a {
 li a:hover {
     text-decoration: underline;
     font-weight: 700;
+}
+
+@media screen and (max-width: 375px) {
+    * {
+        max-width: 375px;
+    }
+    li a {
+        padding: 20px 10px;
+    }
 }
 
 
