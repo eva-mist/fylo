@@ -24,8 +24,8 @@ nav a {
 
 ul {
     list-style-type: none;
-    margin: 30px;
-    padding: 0;
+    margin: 20px;
+    padding: -5px;
     overflow: hidden;
 }
 
@@ -47,9 +47,18 @@ li a:hover {
 @media screen and (max-width: 375px) {
     * {
         max-width: 375px;
+        margin: 0;
+    }
+    .logo {
+        width: 35%;
+    }
+    ul {
+        margin: 20px 0 20px 0;
+        overflow: hidden;
     }
     li a {
         padding: 20px 10px;
+        margin-right: 0;
     }
 }
 
