@@ -51,13 +51,14 @@ li a:hover {
     }
     .logo {
         width: 35%;
+        padding-left: 1px;
     }
     ul {
         margin: 20px 0 20px 0;
         overflow: hidden;
     }
     li a {
-        padding: 20px 10px;
+        padding: 20px 0 10px;
         margin-right: 0;
     }
 }
@@ -90,6 +91,12 @@ button:hover {
     background-color: hsl(176, 68%, 64%);
 }
 
+@media screen and (max-width: 375px) {
+    button {
+        margin-top: 30px;
+    }
+}
+
 
 /* First Section*/
 
@@ -119,22 +126,29 @@ button:hover {
 
 /*Second*/
 
-.column1 {
-    float: left;
-    width: 50%;
-    padding: 10px;
-}
-
-.column1 h2 {
-    padding-top: 10%;
-}
-
 .column1 a {
     color: hsl(198, 60%, 50%);
 }
 
 .column1 a:hover {
     color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 380px) {
+    .column1 {
+        float: left;
+        width: 100%;
+        padding: 10px;
+    }
+    .column1 h2 {
+        padding-top: 10%;
+    }
+    .column1 a {
+        color: hsl(198, 60%, 50%);
+    }
+    .column1 a:hover {
+        color: hsl(0, 0%, 100%);
+    }
 }
 
 
@@ -174,17 +188,6 @@ button:hover {
     background-color: hsl(217, 28%, 15%);
 }
 
-
-/*media query*/
-
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-    }
-}
-
 .column3 p {
     text-align: center;
 }
@@ -205,6 +208,17 @@ button:hover {
     height: 50px;
     width: 50px;
     border-radius: 50%;
+}
+
+
+/*media query*/
+
+@media screen and (max-width: 375px) {
+    .column3 {
+        float: left;
+        width: 100%;
+        padding: 0 5px;
+    }
 }
 
 .subaccess {
@@ -247,6 +261,24 @@ input {
 
 #button1:hover {
     background-color: hsl(176, 68%, 64%);
+}
+
+@media screen and (max-width: 375px) {
+    .subaccess {
+        background-color: hsl(217, 28%, 15%);
+        float: left;
+        width: 90%;
+        padding: 10px 5px;
+        margin-left: 5%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #email {
+        width: 90%;
+    }
+    #button1 {
+        width: 90%;
+    }
 }
 
 
@@ -293,4 +325,16 @@ i {
 i:hover {
     cursor: pointer;
     color: hsl(176, 68%, 64%);
+}
+
+@media screen and (max-width: 375px) {
+    .columnF {
+        float: left;
+        width: 90%;
+        padding: 0 10px;
+        margin-bottom: 40px;
+    }
+    i {
+        margin-left: 20%;
+    }
 }
