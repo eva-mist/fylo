@@ -92,6 +92,12 @@ button:hover {
 }
 
 @media screen and (max-width: 375px) {
+    div.section1 {
+        background-image: url(/images/bg-curvy-mobile.svg);
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-bottom: 15%;
+    }
     button {
         margin-top: 30px;
     }
@@ -107,7 +113,7 @@ button:hover {
 .column {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -123,8 +129,29 @@ button:hover {
     clear: both;
 }
 
+@media screen and (max-width: 380px) {
+    .column {
+        float: left;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}
+
 
 /*Second*/
+
+.column1 {
+    margin-top: 0;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
 
 .column1 a {
     color: hsl(198, 60%, 50%);
