@@ -267,3 +267,12 @@ footer {
     font-weight: 700;
     cursor: pointer;
 }
+
+i {
+    margin-left: 8px;
+}
+
+i:hover {
+    cursor: pointer;
+    color: hsl(176, 68%, 64%);
+}
